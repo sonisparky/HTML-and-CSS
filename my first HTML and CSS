@@ -1,0 +1,152 @@
+<!--HTML-->
+
+<! DOCTYPE html>
+<head>
+    <title> my first html </title>
+    <link rel="stylesheet"  href="styles/styles.css">
+
+</head>
+    <body>
+         <ul>
+            
+             <li><a class="active" href="">HOME</a></li>
+             <li><a href="">GALLERY</a></li>
+             <li><a href="">ARTS</a></li>
+             <li><a href="">HELP</a></li>
+        
+         </ul>
+
+        <h1>Hii there</h1>
+        
+     <ol>
+        <li><button> <a href="https://www.instagram.com/soni_sparky/?hl=en" >soniya</a></button> </li>
+    </ol>  
+        
+
+    <p>“And so the lion fell in love with the lamb…" he murmured. I looked away, hiding my eyes as I thrilled to the word.</br>
+         "What a stupid lamb," I sighed.</br>
+         "What a sick, masochistic lion.”</br>
+          ― Stephenie Meyer, Twilight </p>
+
+    <ol>
+        <!--a link with no underline-->
+        <li><a class="twilight" href="https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/40/1475674634-the-twilight-saga-breaking-dawn-pt1.jpg?resize=480:*"> TWILIGHT </a></li>
+    </ol>
+          
+    <img class="flower align2" src="https://images.unsplash.com/photo-1499018658500-b21c72d7172b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" height="210" width="250">
+    <img class="flower align" id="center" src="https://images.unsplash.com/photo-1496857239036-1fb137683000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" height="210" width="250" hspace="300">
+     
+
+    </body>
+    </html>
+    
+    
+   <!--CSS-->
+   
+   @import url('https://fonts.googleapis.com/css?family=Salsa&display=swap');
+
+body {
+    font-family: 'Salsa', cursive;
+    background-image:url(https://cdn.pixabay.com/photo/2017/08/09/22/25/blank-2616044_960_720.jpg);
+    background-size:1000px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(238, 185, 218);
+}
+
+ul li {
+    display: inline;
+    border-right: 1px solid black;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #da0657;
+    text-align: center;
+    padding: 15px 16px;
+    font-size: larger;
+
+}
+
+.active {
+    background-color: rgb(178, 235, 22)
+}
+
+ul li a:hover {
+    background-color: violet;
+}
+
+ol {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+h2{
+    color:red;
+}
+h1 {
+    color:rgb(167, 8, 61)
+
+}
+
+.flower {
+      border-radius: 50px;
+      box-shadow: 10px 15px rgb(253, 4, 87);
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+     
+    }
+
+.align:hover {
+    box-shadow: 50px 60px 60px purple;        
+}
+.align2:hover {
+    box-shadow: 50px 60px 60px rgb(100, 51, 156); 
+}
+.twilight {
+    text-decoration: none;
+    color:rgba(97, 8, 85, 0.986);
+    font-size: 60px;
+    display: block;    
+    text-align: center;
+   }
+p{
+    font-size:51px;
+    color:crimson;
+    display: block;    
+    text-align: center;
+    }
+
+button {
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+        outline:none;
+    }
+
+button a {
+    font-size: 35px;
+    color:rgb(18, 197, 252);
+    font-style: italic;
+}
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
